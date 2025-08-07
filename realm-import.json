@@ -8,14 +8,14 @@
     "requiredCredentials": [ "password" ],
     "users" : [
         {
-            "username" : "user",
+            "username" : "rakuten",
             "enabled": true,
             "email" : "guacamloe@rakuten.com",
             "firstName": "Sample",
             "lastName": "User",
             "credentials" : [
                 { "type" : "password",
-                  "value" : "password" }
+                  "value" : "rakuten#2025" }
             ],
             "realmRoles": [ "user" ],
             "clientRoles": {
