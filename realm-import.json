@@ -84,6 +84,19 @@
           }
         },
         {
+          "id": "c9d4e8f2-a1b3-4c5d-9e7f-8a2b3c4d5e6f",
+          "name": "Group Membership",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-group-membership-mapper",
+          "consentRequired": false,
+          "config": {
+            "full.path": "false",
+            "id.token.claim": "true",
+            "access.token.claim": "true",
+            "claim.name": "groups",
+            "userinfo.token.claim": "true"
+          }},
+        {
           "id": "81ae58f4-ae82-4693-93a9-1c92d671dd26",
           "name": "audience resolve",
           "protocol": "openid-connect",
